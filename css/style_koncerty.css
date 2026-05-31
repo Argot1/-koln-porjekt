@@ -75,8 +75,8 @@ h6 {
     }
     .nahoru a{
     position: fixed;
-    top: 30.5em;
-    left: 15em;
+    top: 85%;
+    left: 82%;
     background-color: rgb(255, 0, 0);
     padding: 1em 1em 1em 1em;
     font-size: larger;
