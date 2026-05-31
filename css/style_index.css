@@ -68,8 +68,8 @@ a {
 
 .nahoru a{
     position: fixed;
-    top: 42.5em;
-    left: 20em;
+    top: 85%;
+    left: 82%;
     background-color: rgb(255, 0, 0);
     padding: 1em 1em 1em 1em;
     font-size: larger;
