@@ -5,6 +5,8 @@
 }
 
 
+
+
 footer {
     padding: 5em;
     background-color: rgb(31, 31, 31);
@@ -64,6 +66,16 @@ a {
 
     }
 
+.nahoru a{
+    position: fixed;
+    top: 85%;
+    left: 82%;
+    background-color: rgb(255, 0, 0);
+    padding: 1em 1em 1em 1em;
+    font-size: larger;
+    border-radius: 100em;
+    color: yellow;
+}
     .mtvlogo {
         width: 100%;
         max-width: 320px;
@@ -194,6 +206,7 @@ a {
         text-align: center;
         transition: border-width 0.3s ease;
         margin: auto;
+        font-size: large;
 
 
     }
@@ -260,6 +273,17 @@ a {
 
 /*pro PC*/
 @media screen and (min-width: 768px) {
+
+    .nahoru a{
+    position: fixed;
+    top: 85%;
+    left: 90%;
+    background-color: rgb(255, 0, 0);
+    padding: 1.5em 1.5em 1.5em 1.5em;
+    font-size: larger;
+    border-radius: 100em;
+    color: yellow;
+}
 
     body {
         font-size: large;

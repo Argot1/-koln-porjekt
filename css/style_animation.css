@@ -41,6 +41,15 @@ header {
 
 
 @media screen and (max-width: 767px) {
+    .nahoru a{
+    position: fixed;
+    top: 85%;
+    left: 82%;
+    background-color: rgb(255, 0, 0);
+    padding: 1em 1em 1em 1em;
+    font-size: larger;
+    border-radius: 100em;
+}
     header {
         background-position: center;
         padding: 2em 1em;
@@ -114,6 +123,7 @@ header {
         text-align: center;
         transition: border-width 0.3s ease;
         margin: auto;
+        font-size: large;
     }
 
     .menu a:hover {
@@ -214,6 +224,15 @@ header {
 
 /* pro PC */
 @media screen and (min-width: 768px) {
+      .nahoru a{
+    position: fixed;
+    top: 85%;
+    left: 90%;
+    background-color: rgb(255, 0, 0);
+    padding: 1.5em 1.5em 1.5em 1.5em;
+    font-size: larger;
+    border-radius: 100em;
+    }
     header {
         background-image: url("../img/pozadi3.png");
         padding: 5em;

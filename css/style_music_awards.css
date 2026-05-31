@@ -73,6 +73,7 @@ a {
         text-align: center;
         transition: border-width 0.3s ease;
         margin: auto;
+        font-size: large;
 
 
     }
@@ -125,6 +126,17 @@ a {
         display: block;
     }
 
+    .nahoru a{
+    position: fixed;
+    top: 85%;
+    left: 82%;
+    background-color: rgb(255, 0, 0);
+    padding: 1em 1em 1em 1em;
+    font-size: larger;
+    border-radius: 100em;
+    color: yellow;
+}
+
 
 
 
@@ -143,6 +155,16 @@ a {
 /*pro PC*/
 
 @media screen and (min-width:768px) {
+       .nahoru a{
+    position: fixed;
+    top: 85%;
+    left: 90%;
+    background-color: rgb(255, 0, 0);
+    padding: 1.5em 1.5em 1.5em 1.5em;
+    font-size: larger;
+    border-radius: 100em;
+    color: yellow;
+    }
     header {
         background-image: url("../img/pozadi_awards.png");
         background-repeat: no-repeat;
@@ -188,9 +210,12 @@ a {
         top: 2em;
         transition: border-width 0.3s ease;
         margin: auto;
+        font-size: medium;
 
 
     }
+
+
 
  
 
